@@ -31,8 +31,7 @@
 #include "MT2/MT2Utility.h"
 
 // Versions here!
-#include "Version_No.3"
-
+#include "Version_No.4"
 
 // Good run list
 #include "/home/users/jgran/CMSSW_5_3_2_patch4_V05-03-23/src/CMS2/NtupleMacros/Tools/goodrun.cc"
@@ -114,7 +113,11 @@ int ScanChain( TChain* chain, char* suffix = "", int nEvtFdr = -1, bool fast = t
       scale1fb = evt_scale1fb();
       // Analysis Code for MT2
 
-      This.is.a.fake.code->For.version()->No[3];
+      This.is.a.fake.code->For.version()->No[4];
+      This.is.a.fake.code->For.version()->No[4];
+      This.is.a.fake.code->For.version()->No[4];
+      This.is.a.fake.code->For.version()->No[4];
+      This.is.a.fake.code->For.version()->No[4];
 
 
     } //loop over events in the current file
